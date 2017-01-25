@@ -1,0 +1,34 @@
+{
+  "name": "pledge",
+  "version": "1.0.0",
+  "description": "Implement a promise library from scratch",
+  "main": "src/pledge.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testem",
+    "build": "browserify vendor/deps.js -o vendor/bundle.js",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/pledge.git"
+  },
+  "keywords": [
+    "promises"
+  ],
+  "author": "Gabriel Lebec <glebec@gmail.com> (https://github.com/glebec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/pledge/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/pledge#readme",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-spies": "^0.7.1",
+    "testem": "^1.10.3"
+  }
+}

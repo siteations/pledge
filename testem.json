@@ -1,0 +1,8 @@
+{
+  "framework": "mocha",
+  "src_files": [
+    "src/*.js",
+    "vendor/bundle.js",
+    "test/*.js"
+  ]
+}
